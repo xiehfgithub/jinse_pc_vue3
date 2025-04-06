@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkjinse_thirdpartydata"]=self["webpackChunkjinse_thirdpartydata"]||[]).push([[594],{603:function(t,a,n){n.r(a),n.d(a,{default:function(){return d}});var r=n(6768);const u={class:"about"};function e(t,a){return(0,r.uX)(),(0,r.CE)("div",u,a[0]||(a[0]=[(0,r.Lk)("h1",null,"This is an about page",-1)]))}var s=n(1241);const i={},c=(0,s.A)(i,[["render",e]]);var d=c}}]);
+//# sourceMappingURL=about.js.map

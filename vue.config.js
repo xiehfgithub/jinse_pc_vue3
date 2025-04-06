@@ -25,11 +25,15 @@ module.exports = defineConfig({
       },
     },
   },
-  proxy: {
-    "/api": {
-      target: "http://localhost:3000",
-      changeOrigin: true,
-      pathRewrite: { "^/api": "" },
+  devServer: {
+    port: 8080, // 本地运行端口
+    open: true, // 启动时自动打开浏览器
+    proxy: {
+      "/api": {
+        target: "http://localhost:3000",
+        changeOrigin: true,
+        pathRewrite: { "^/api": "" },
+      },
     },
   },
 
